@@ -1,0 +1,33 @@
+{
+  "name": "FoundryVTT",
+  "slug": "foundryvtt",
+  "categories": [24],
+  "date_created": "2025-05-15",
+  "type": "ct",
+  "updateable": false,
+  "privileged": false,
+  "interface_port": 30000,
+  "documentation": "https://foundryvtt.com/",
+  "website": "https://foundryvtt.com/",
+  "logo": "https://foundryvtt.com/static/favicons/android-chrome-192x192.png",
+  "config_path": "",
+  "description": "Foundry VTT is a modern, powerful, and self-hosted virtual tabletop platform for RPGs. This script sets up a Node.js-based headless Foundry server.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/foundryvtt.sh",
+      "resources": {
+        "cpu": 2,
+        "ram": 1024,
+        "hdd": 6,
+        "os": "debian",
+        "version": "12"
+      }
+    }
+  ],
+  "default_credentials": {
+    "username": null,
+    "password": null
+  },
+  "notes": []
+}
