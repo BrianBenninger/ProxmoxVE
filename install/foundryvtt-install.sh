@@ -35,7 +35,9 @@ msg_ok "Installed Node.js"
 msg_info "Setting up Foundry VTT"
 useradd -m -d /opt/foundryvtt foundry
 cd /opt/foundryvtt
-wget -O foundryvtt.zip "https://foundryvtt.com/releases/download?build=343&platform=node"
+wget --header="Cookie: csrftoken=McpDAN5CMhfEnMGfEsXC6bxUKWY7EZBq; sessionid=0b02b7jge7d33ubydjmqnb1ecl5l1gjl" \
+  -O foundryvtt.zip \
+  "https://foundryvtt.com/releases/download?build=343&platform=node"
 unzip -q foundryvtt.zip
 rm foundryvtt.zip
 mkdir -p /opt/foundrydata
