@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
-source <(curl -fsSL https://raw.githubusercontent.com/BrianBenninger/ProxmoxVE/refs/head/foundryvtt/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/BrianBenninger/ProxmoxVE/foundryvtt/misc/build.func)
 # Author: Brian Benninger
 # License: MIT
 
