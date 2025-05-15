@@ -36,8 +36,8 @@ msg_info "Setting up Foundry VTT"
 useradd -m -d /opt/foundryvtt foundry
 cd /opt/foundryvtt
 wget -O foundryvtt.zip "https://foundryvtt.com/releases/download?build=343&platform=node"
-unzip -q FoundryVTT-12.343.zip
-rm FoundryVTT-12.343.zip
+unzip -q foundryvtt.zip
+rm foundryvtt.zip
 mkdir -p /opt/foundrydata
 chown -R foundry: /opt/foundryvtt /opt/foundrydata
 msg_ok "Setup Foundry VTT"
